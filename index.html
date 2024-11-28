@@ -3,35 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maykon Tardoche | Desenvolvedor FullStack</title>
+    <title>Página de Maykon Tardoche | Desenvolvedor FullStack</title>
+    <!-- Link do Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJXQK6+f5Rek6+9fmPoXQY03fU5i1r0l9bC9e8Pei6IMpJxGzJ4eHb1pmvJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Sidebar -->
-    <div id="sidebar">
-        <ul>
-            <li><a href="#"><i class="fa fa-home"></i><span>Home</span></a></li>
-            <li><a href="#"><i class="fa fa-code"></i><span>Código</span></a></li>
-            <li><a href="#"><i class="fa fa-cogs"></i><span>Configurações</span></a></li>
-            <li><a href="#"><i class="fa fa-bug"></i><span>Erros</span></a></li>
-            <li><a href="#"><i class="fa fa-tasks"></i><span>Tarefas</span></a></li>
-            <li><a href="#"><i class="fa fa-users"></i><span>Usuários</span></a></li>
-            <li><a href="#"><i class="fa fa-paint-brush"></i><span>Design</span></a></li>
-            <li><a href="#"><i class="fa fa-cloud"></i><span>Cloud</span></a></li>
-            <li><a href="#"><i class="fa fa-chart-line"></i><span>Relatórios</span></a></li>
-            <li><a href="#"><i class="fa fa-info-circle"></i><span>Sobre</span></a></li>
+    <div id="sidebar" class="d-flex flex-column align-items-center py-3">
+        <div class="sidebar-header text-center mb-4">
+            <h2 class="text-white">MT</h2>
+            <p class="text-white small">Desenvolvedor FullStack</p>
+        </div>
+        <ul class="nav flex-column w-100">
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-home"></i> Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-code"></i> Código</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-cogs"></i> Configurações</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-bug"></i> Erros</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-tasks"></i> Tarefas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-users"></i> Usuários</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-paint-brush"></i> Design</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-cloud"></i> Cloud</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-chart-line"></i> Relatórios</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-info-circle"></i> Sobre</a></li>
         </ul>
     </div>
 
-    <!-- Conteúdo principal -->
-    <div class="content">
-        <h1>Bem-vindo à Página de Maykon Tardoche</h1>
-        <p>Olá, meu nome é <strong>Maykon Tardoche</strong>, sou um desenvolvedor FullStack especializado na criação de sidebars interativos e modernos para web. Nesta página, você poderá acessar vários códigos prontos para usar em seus próprios projetos.</p>
-        <p>Todos os códigos disponíveis aqui devem ser utilizados com a devida referência ao meu GitHub. Acesse meu repositório para mais exemplos e atualizações.</p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/maykontardoche" target="_blank">github.com/maykontardoche</a></p>
+    <!-- Main Content -->
+    <div class="content container-fluid ps-3 py-5">
+        <h1 class="display-4 text-white">Bem-vindo à Página de Maykon Tardoche</h1>
+        <p class="lead text-light">Olá, meu nome é <strong>Maykon Tardoche</strong>, sou um desenvolvedor FullStack especializado na criação de sidebars interativos e modernos para web. Nesta página, você poderá acessar vários códigos prontos para usar em seus próprios projetos.</p>
+        <p class="text-light">Todos os códigos disponíveis aqui devem ser utilizados com a devida referência ao meu GitHub. Acesse meu repositório para mais exemplos e atualizações.</p>
+        <p class="text-light"><strong>GitHub:</strong> <a href="https://github.com/maykontardoche" target="_blank" class="text-decoration-none text-info">github.com/maykontardoche</a></p>
     </div>
 
+    <!-- Scripts -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0hC1u5rAT6rsX6tCmIkDff95F8GJ1dl4Y7o9mD7l9Ffmw9BX" crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
 </body>
 </html>
