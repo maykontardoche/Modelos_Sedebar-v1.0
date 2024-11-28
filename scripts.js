@@ -1,4 +1,4 @@
-// Script para controlar a interação do sidebar
+// Script para controlar a interação do sidebarr
 const sidebar = document.getElementById('sidebar');
 
 // Função para abrir o sidebar ao passar o mouse
